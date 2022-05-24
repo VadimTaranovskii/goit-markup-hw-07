@@ -70,8 +70,8 @@ img {
 
 /*-----------------LOGO------------------------*/
 
-.header-logo,
-.header-logo__accent {
+.header__logo,
+.header__logo-accent {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -83,11 +83,11 @@ img {
     margin-right: 94px;
 }
 
-.header-logo {
+.header__logo {
     color: var(--main-color);
 }
 
-.header-logo__accent {
+.header__logo-accent {
     color: var(--secondary-color);
 }
 
