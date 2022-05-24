@@ -46,8 +46,7 @@ ul {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 ul {
@@ -71,8 +70,8 @@ img {
 
 /*-----------------LOGO------------------------*/
 
-.header-logo,
-.logo-accent {
+.logo,
+.logo__accent {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -84,11 +83,11 @@ img {
     margin-right: 94px;
 }
 
-.header-logo {
+.logo {
     color: var(--main-color);
 }
 
-.logo-accent {
+.logo__accent {
     color: var(--secondary-color);
 }
 
