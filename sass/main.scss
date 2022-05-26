@@ -1,2 +1,15 @@
-@import "./layout/header";
-@import "./layout/hero";
+@import './components/portfolio-main';
+
+
+@import './components/modalwindow';
+@import './components/footer';
+@import './components/clients';
+@import './components/team';
+@import './components/service';
+@import './components/features';
+@import './components/button';
+@import './components/hero';
+@import './components/header';
+@import './components/logo';
+@import './base/basefile';
+@import './utils/variabless';

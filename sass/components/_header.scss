@@ -11,6 +11,8 @@
     border-radius: 2px;
 }*/
 
+
+
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -20,21 +22,21 @@
     align-items: center;
 }
 
-.header-item .link {
+.menu-list__item .menu-list__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.header-item:not(:last-child) {
+.menu-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-list {
+.menu-list {
     display: flex;
 }
 
-.header-item .link {
+.menu-list__item .menu-list__link {
     color: var(--headertext-color);
     font-weight: 500;
     font-size: 14px;
@@ -43,7 +45,7 @@
     text-decoration: none;
 }
 
-.header-item {
+.menu-list__item {
     position: relative;
 }
 
@@ -58,27 +60,29 @@
     background-color: var(--main-color);
 }
 
+
 /*----contact----*/
 
-.header-connect {
+
+.connect {
     display: inline-flex;
     margin-left: auto;
     justify-content: space-around;
     align-items: baseline;
 }
 
-.contact-item+.contact-item {
+.connect__item+.connect__item {
     margin-left: 50px;
 }
 
-.contact-item .contact-link:hover,
-.contact-item .contact-link:focus {
+.connect__item .connect__link:hover,
+.connect__item .connect__link:focus {
     color: var(--main-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-item .contact-link {
+.connect__item .connect__link {
     color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
@@ -87,17 +91,17 @@
     letter-spacing: 0.02em;
 }
 
-.header-item.link.current {
+.menu-list__item.menu-list__link.current {
     color: var(--main-color)
 }
 
-.header-list .link:hover {
+.menu-list .menu-list__link:hover {
     color: var(--main-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-icon {
+.connect__icon {
     margin-right: 10px;
     display: inline-block;
     align-items: center;
@@ -105,7 +109,7 @@
     fill: currentColor;
 }
 
-.contact-icon:hover {
+.connect__icon:hover {
     fill: var(--main-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
