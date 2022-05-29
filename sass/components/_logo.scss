@@ -9,26 +9,18 @@
     text-decoration: none;
     width: 145px;
     margin-right: 94px;
-}
-
-.header__logo {
-    color: var(--main-color);
+    & {
+            color: var(--main-color);
+        }
 }
 
 .header__logo-accent {
     color: var(--secondary-color);
 }
 
-
-
 .adress-logo {
     width: 145px;
     height: 31px;
-}
-
-.footer-logo {
-    display: block;
-    margin-bottom: 20px;
 }
 
 .footer-logo,
@@ -43,11 +35,15 @@
     width: 145px;
     height: 31px;
     margin-right: 0px;
+    & {
+            color: var(--main-color);
+            text-decoration: none;
+        }
 }
 
 .footer-logo {
-    color: var(--main-color);
-    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .accent-logo {

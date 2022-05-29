@@ -48,12 +48,13 @@
     margin-bottom: 30px;
 }
 
-.feature-icon {
-    display: inline-block;
-}
+
 
 .feature.section {
     padding-bottom: 0px;
+    &-icon {
+        display: inline-block;
+    }
 }
 
 /*.features-icon-list {
