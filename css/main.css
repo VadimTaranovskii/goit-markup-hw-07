@@ -490,10 +490,10 @@ input:focus + .icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__list {
-  display: flex;
-  justify-content: space-between;
-  /*width: calc((100% - 90px) / 4);*/
+.section.team {
+  background-color: var(--onetime-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team__title {
@@ -506,8 +506,10 @@ input:focus + .icon {
   color: var(--headertext-color);
 }
 
-.team__icon {
-  display: block;
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  /*width: calc((100% - 90px) / 4);*/
 }
 
 .team__item {
@@ -522,7 +524,7 @@ input:focus + .icon {
   margin-right: 30px;
 }
 
-.team__name--title {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -541,56 +543,50 @@ input:focus + .icon {
   color: var(--text-color);
 }
 
-.section.team {
-  background-color: var(--onetime-color);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .team__info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team__network {
+.team-network {
   margin-top: 16px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.team__network--item {
+.team-network__item {
   background-color: var(--light-color);
   border-radius: 50%;
 }
-.team__network--item:hover, .team__network--item:focus {
+.team-network__item:hover, .team-network__item:focus {
   background-color: var(--main-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__network--item:not(:last-child) {
+.team-network__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.team__network--icon {
+.team-network__icon {
   display: flex;
   align-items: center;
   justify-content: center;
   fill: var(--iconfill-normal);
 }
-.team__network--icon:hover {
+.team-network__icon:hover {
   fill: var(--light-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__network--link {
+.team-network__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
 }
-.team__network--link:hover .team__network--icon {
+.team-network__link:hover .team-network__icon {
   fill: var(--light-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1104,6 +1100,17 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  /*@media screen and (min-width: 480px) {
+      width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+      width: 768px;
+  }
+
+  @media screen and (min-width: 1140px) {
+      width: 768px;
+  }*/
 }
 
 body {
