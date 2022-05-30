@@ -1083,18 +1083,6 @@ img {
   padding-bottom: 94px;
 }
 
-:root {
-  --main-color: #2196f3;
-  --secondary-color: #000000;
-  --headertext-color: #212121;
-  --text-color: #757575;
-  --light-color: #ffffff;
-  --background-color: #2F303A;
-  --onetime-color: #f5f4fa;
-  --buttomhover-color: #188CE8;
-  --iconfill-normal: #AFB1B8;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -1121,4 +1109,16 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   margin: 0px;
+}
+
+:root {
+  --main-color: #2196f3;
+  --secondary-color: #000000;
+  --headertext-color: #212121;
+  --text-color: #757575;
+  --light-color: #ffffff;
+  --background-color: #2F303A;
+  --onetime-color: #f5f4fa;
+  --buttomhover-color: #188CE8;
+  --iconfill-normal: #AFB1B8;
 }/*# sourceMappingURL=main.css.map */
